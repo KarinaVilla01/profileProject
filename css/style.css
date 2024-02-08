@@ -1,6 +1,43 @@
+:root{
+    --white: #fff;
+    --black: #000;
+    --primary-50: #f5f2ff;
+    --primary-100:#efe7ff;
+    --primary-200: #e0d3ff;
+    --primary-300: #cab0ff;
+    --primary-400: #b083ff;
+    --primary-500: #9a51ff;
+    --primary-600: #8f2dfa;
+    --primary-700: #801be6;
+    --primary-800: #6c16c1;
+    --primary-900: #6116ac;
+    --primary-950: #370a6b;
+    --secundary-50: #fefee8;
+    --secundary-100: #fffec2;
+    --secundary-200:#fffa87;
+    --secundary-300: #fff043;
+    --secundary-400: #ffde05;
+    --secundary-500: #efc603;
+    --secundary-600: #ce9a00;
+    --secundary-700: #a46e04;
+    --secundary-800:#88560b;
+    --secundary-900: #734610;
+    --secundary-950:#432405;
+    --f-sm: 1.6rem;
+    --f-md: 2.1rem;
+    --f-lg: 3.8rem;
+}
+
 html{
     font-size: 62.5%;
 }
 body{
-    font-size: 16px;
+    font-size: 16px; /*1rem = 10px*/
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.titulo{
+    font-size: var(--f-lg); /*38px*/
+    font-weight: 800;
+    font-style: italic;
 }
